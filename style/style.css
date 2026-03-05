@@ -1,0 +1,25 @@
+
+body{
+    background-color: var(--color-fondo);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-texto);
+}
+
+header{
+    letter-spacing: 1px;
+}
+
+.producto-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translate(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}   
+
+.card-im-top {
+    height: 250px;
+    object-fit:cover;
+}
